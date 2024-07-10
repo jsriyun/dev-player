@@ -1,0 +1,64 @@
+@font-face {
+	font-family: 'KBFG_L';
+	font-style: normal;
+	font-weight: 300;
+	src:  url(http://www.flowis.co.kr/font/KBFGDisplayL.woff) format('woff'), url(../font/KBFGDisplayL.eot) format('eot');
+}
+
+*{margin:0 auto;font-family:KBFG_L,nanumgothic,NotoSans,Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif,Malgun Gothic,MS Sans Serif;}
+html{}
+
+img{border: 0px}
+table{border:0; text-align:center;}
+ul,li{list-style:none;padding: 0;}
+iframe{border: 0}
+td { color:#333333;  line-height: 120%}
+div {  color:#333333 ; line-height: 120%}
+BODY {font:normal 10pt 'KBFG_L';text-align: center;
+SCROLLBAR-FACE-COLOR: #dddddd; FONT-SIZE: 10px; SCROLLBAR-SHADOW-COLOR: #dddddd; COLOR: #333333;
+SCROLLBAR-3DLIGHT-COLOR: #eeeeee; SCROLLBAR-ARROW-COLOR: 8CAEE4;
+FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: #cccccc; SCROLLBAR-BASE-COLOR: #ffffff
+}
+
+td.trans { color:#FFFFFF;  line-height: 120%}
+td.lists {font-size: 9pt; color:#333333;  line-height: 110%;text-align: left;
+	white-space: nowrap;}
+td.spearkes { color:#555555;  line-height: 120%}
+
+a{color:#555555; text-decoration:none}
+A:link    {text-decoration:none;}
+A:hover   { color:#8CAEE4;text-decoration:none;}
+
+.wrap{  width: 1000px;   display: inline-block;   position: relative;}
+
+.boxBorder{border: 1px solid #c3c3c3;   border-radius: 5px;}
+
+#MainBox{position:absolute; WIDTH:1000px; HEIGHT:555px; left: 5px; top: 49px;}
+
+#VideoLayer{position:absolute; WIDTH:320px; HEIGHT:auto; left:675px;}
+.logo_wrap{text-align: right;
+	display: inline-block;
+	    width: 100%;
+	    background: #fbfbfb;
+}
+
+#PPTLayer{position:absolute; WIDTH:654px; HEIGHT:525px;}
+
+#ListMenu{position:absolute; WIDTH:280px; HEIGHT:26px; top: 250px; }
+.ListMenu_vod{ left:675px;top:320px !important;}
+
+#ListLayer{position:absolute; WIDTH:320px; HEIGHT:250px;top: 273px; left:675px; }
+.script_wrap{    height: 240px;
+    overflow: auto;
+    text-align: left;
+    padding: 0 10px;
+    font-size: 1.2em;
+    line-height: 1.5;}
+.ListLayer_vod{top:343px !important; HEIGHT:190px !important;}
+.div_tab_vod{padding:5px 0;}
+
+.text1 { color:#000000;}
+.text2 { color:#FF0000;}
+
+.copy {color:#999999;font-size:8pt; text-align: right;   /*position: absolute;top: 525px;
+margin-left: 10px;*/}
