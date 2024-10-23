@@ -1,2 +1,0 @@
-# dev-player
-KBplayer
